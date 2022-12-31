@@ -13,11 +13,11 @@ function HappyNewYear() {
 let a = false;
 let check = () => {
     let cT = new Date();
-    if (cT.getFullYear() == "2023") {
+    if (cT.getFullYear() == "2022") {
         TimeUpdate();
     }
 
-    if (cT.getFullYear() == "2022") {
+    if (cT.getFullYear() == "2023") {
         HappyNewYear();
         if(!a){
             a = true;
