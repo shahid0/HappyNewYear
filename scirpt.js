@@ -17,7 +17,7 @@ let check = () => {
         TimeUpdate();
     }
 
-    if (cT.getFullYear() == "2023") {
+    if (cT.getFullYear() == "2024") {
         HappyNewYear();
         if(!a){
             a = true;
